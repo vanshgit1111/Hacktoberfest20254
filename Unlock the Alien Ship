@@ -1,0 +1,12 @@
+#write your code here
+a, b, c = map(int, input().split())
+decimal = a * 4 + b * 2 + c
+
+# def is_power_of_two(n):
+#    return n > 0 and (n & (n - 1)) == 0
+
+
+if  decimal==1 or decimal==2 or decimal==4 :
+    print("Yes! Ship Unlocked.")
+else:
+    print("No! Better luck next time.")
